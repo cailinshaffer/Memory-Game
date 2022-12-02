@@ -10,8 +10,8 @@ console.log('script be scripting')
 // // const emojis = [🪂, ⛷, 🏂]
 
 let counter = 0;
-let firstPlayer = "";
-let secondPlayer = "";
+let firstSelector = "";
+let secondSelector = "";
 
 const tile = document.querySelectorAll('.tile');
     
@@ -20,7 +20,9 @@ tile.forEach((tile) => {
     tile.addEventListener('click', (e) => {
         //console.log(true )
         tile.classList.add('clicked')
-    })
+        if(counter === 0)
+        firstPlayer.card
+    }) 
 })
 
 
