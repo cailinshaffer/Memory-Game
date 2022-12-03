@@ -7,11 +7,11 @@ console.log('script be scripting')
 // const moves = document.querySelector('.moves')
 // const instructions = document.querySelector('.instructions')
 // const win = document.querySelector('.win')
-// // const emojis = [🪂, ⛷, 🏂]
-
+//const emojis = [🪂, ⛷, 🏂]
+ 
 let counter = 0;
-let firstSelector = "";
-let secondSelector = "";
+let firstPlayer = "";
+let secondPlayer = "";
 
 const tile = document.querySelectorAll('.tile');
     
@@ -20,8 +20,16 @@ tile.forEach((tile) => {
     tile.addEventListener('click', (e) => {
         //console.log(true )
         tile.classList.add('clicked')
-        if(counter === 0)
-        firstPlayer.card
+        
+        if(counter === 0){
+        firstPlayer.card.getAttribute('emoji')
+        counter++
+        } else {
+            secondPlayer = card.getAttribute('emoji')
+            counter = 0
+        }
+console.log(firstPlayer)
+console.log(secondPlayer)
     }) 
 })
 
