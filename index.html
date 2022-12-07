@@ -9,17 +9,35 @@
     <title>Memory Game</title>
 </head>
 <body>
-    <h1 class="title"> Memory Game</h1>
-    <p class="results"></p>
+    <h2 class="inline">Player 1 Score:</h2>
+    <h2 id="score-player-1" class="inline">0</h2>
+    <br/>
+    <br/>
+    <h2 class="inline">Player 1 Time:</h2>
+    <h2 id="timer-player-1" class="inline">0</h2>
+    <br/>
+    <br/>
+    <button id="timer-player-1-start">[debug] start player 1 timer</button>
+    <button id="timer-player-1-stop">[debug] stop player 1 timer</button>
+
+    <h2 class="inline">Player 2 Score:</h2>
+    <h2 id="score-player-2" class="inline">0</h2>
+    <br/>
+    <br/>
+    <h2 class="inline">Player 2 Time:</h2>
+    <h2 id="timer-player-2" class="inline">0</h2>
+    <br/>
+    <br/>
+    <button id="timer-player-2-start">[debug] start player 2 timer</button>
+    <button id="timer-player-2-stop">[debug] stop player 2 timer</button>
+
+    
+    <button id="reset">[debug] reset</button>
+    
+    
 
         <div class="container">
-            <!-- <div>
-                Time <span id="time-remaining">100</span>
-            </div>
-            <div class ="overlay-text visible" id="overlay-text"> 
-                GAME OVER
-                <span class="overlay-text-small">Click to Restart</span>
-            </div> -->
+            
             <div class="row">
                 <div class="tile" id="tile-1"  resort="jacksonhole" >1
                     <img src="./images/jacksonhole.png" alt="jacksonhole">
@@ -77,10 +95,8 @@
                         <img src="./images/breck.png" alt="breck">
                     </div>
             </div>
-            <div class="buttons">
-                <button id="Restart">RESTART</button>
+            
 
-                <a href="javascript:window.top.location.reload(true)" class="continue">Play Again</a>
             </div>
 
             
