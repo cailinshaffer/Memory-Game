@@ -42,7 +42,7 @@ function startTimer1() {
     let value = Number(timer1.innerText);
     value += 1;
     timer1.innerText = value;
-  }, 1000);
+  }, 800);
 }
 
 function startTimer2() {
