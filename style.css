@@ -4,7 +4,20 @@
   box-sizing: border-box;
   background: #000
   url(https://wallpaperaccess.com/full/83502.jpg);
+  align
 
+}
+
+.inline {
+  display: inline-block;
+}
+
+h1 {
+  align-items: center;
+}
+
+h2 {
+  align-items: center;
 }
 
 .container {
@@ -73,15 +86,6 @@
   background-color: black;
 }
 
-/* .overlay-text-small {
-  font-size: .3em;
-}
-
-.overlay-text-visible {
-  display: flex;
-  flex-direction: column;
-  animation: overlay-grow 500ms forwards;
-} */
 
 
 

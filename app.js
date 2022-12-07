@@ -11,13 +11,18 @@ const timer1 = document.getElementById("timer-player-1");
 const score1 = document.getElementById("score-player-1");
 const timer2 = document.getElementById("timer-player-2");
 const score2 = document.getElementById("score-player-2");
+//const container = document.getElementById("container")
 
 // for debugging
 const timer1StartButton = document.getElementById("timer-player-1-start");
 const timer1StopButton = document.getElementById("timer-player-1-stop");
 
+//console.log(timer1StopButton, timer1StartButton)
+
 const timer2StartButton = document.getElementById("timer-player-2-start");
 const timer2StopButton = document.getElementById("timer-player-2-stop");
+
+//console.log(timer2StartButton, timer2StopButton)
 
 const resetButton = document.getElementById("reset");
 timer1StartButton.addEventListener("click", startTimer1);
@@ -34,16 +39,18 @@ function reset() {
   timer1.innerText = 0;
   score2.innerText = 0;
   timer2.innerText = 0;
-  
+   
 }
+//console.log(reset)
 
 function startTimer1() {
   timer1Interval = setInterval(() => {
     let value = Number(timer1.innerText);
     value += 1;
     timer1.innerText = value;
-  }, 800);
+  }, 1000);
 }
+
 
 function startTimer2() {
     timer2Interval = setInterval(() => {
