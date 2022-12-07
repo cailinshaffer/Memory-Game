@@ -13,9 +13,16 @@
     <p class="results"></p>
 
         <div class="container">
+            <!-- <div>
+                Time <span id="time-remaining">100</span>
+            </div>
+            <div class ="overlay-text visible" id="overlay-text"> 
+                GAME OVER
+                <span class="overlay-text-small">Click to Restart</span>
+            </div> -->
             <div class="row">
-                <div class="tile" id="tile-1"  resort="jacksonhole">1
-                    <img src="./images/jacksonhole.png" alt="X">
+                <div class="tile" id="tile-1"  resort="jacksonhole" >1
+                    <img src="./images/jacksonhole.png" alt="jacksonhole">
                 </div>
                 
                 <div class="tile" id="tile-2" resort="keystone">2
@@ -62,20 +69,23 @@
                         <img src="./images/winterpark.jpg" alt="winterpark">
                     </div>
                     
-                    <div class="tile" id="tile-11" resort="snowboarder" >11
-                        <img src="./images/jacksonhole.png" alt="snowboarder">
+                    <div class="tile" id="tile-11" resort="jacksonhole" >11
+                        <img src="./images/jacksonhole.png" alt="jacksonhole">
                     </div>
     
                     <div class="tile" id="tile-12" resort="breck">12
                         <img src="./images/breck.png" alt="breck">
                     </div>
             </div>
+            <div class="buttons">
+                <button id="Restart">RESTART</button>
+
+                <a href="javascript:window.top.location.reload(true)" class="continue">Play Again</a>
+            </div>
+
             
         
-        <div>
-            <button class="reset">Reset</button>
-            <button  class="instructions">instructions</button>
-        </div>
+       
         
 </body>
 <script src="app.js"></script>

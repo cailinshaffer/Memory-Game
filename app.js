@@ -1,5 +1,6 @@
-//console.log('script be scripting')
- 
+// //console.log('script be scripting')
+//  document.addEventListener('DOMContentLoaded', ready{()
+// })
 
 
 
@@ -8,7 +9,7 @@ let firstSelector = "";
 let secondSelector = "";
 
 
-const tilesClicked = []
+
 
 
 const tile = document.querySelectorAll(".tile");
@@ -43,31 +44,13 @@ tile.forEach((tile) => {
           incorrectTile[0].classList.remove("clicked");
           incorrectTile[1].classList.remove("shake");
           incorrectTile[1].classList.remove("clicked");
-        }, 800);
-      }
-    }
-  });
-});
-
-// let endGame = () => {
-//     if(correctTiles === 8)
-//     endGame = true
-//     console.log("game over")}
+        }, 1000);
 
 
+       
+      
+      }  
 
+    }})
 
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-   
+})
