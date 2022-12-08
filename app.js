@@ -2,6 +2,7 @@
 // declare variables for first and second choice
 //declare player
 // declare whos move it is
+
 let counter = 0
 let moveCounter = 0
 let currentPlayer = 1
@@ -17,7 +18,7 @@ const score2 = document.getElementById('score-player-2')
 const title = document.getElementById('title')
 
 
-// for debugging
+
 const timer1StartButton = document.getElementById('timer-player-1-start')
 const timer1StopButton = document.getElementById('timer-player-1-stop')
 
@@ -25,8 +26,8 @@ const timer1StopButton = document.getElementById('timer-player-1-stop')
 
 const timer2StartButton = document.getElementById('timer-player-2-start')
 const timer2StopButton = document.getElementById('timer-player-2-stop')
-
 //console.log(timer2StartButton, timer2StopButton)
+
 // add event listeners for timers and score
 const resetButton = document.getElementById('reset')
 timer1StartButton.addEventListener('click', startTimer1)
@@ -112,6 +113,7 @@ tiles.forEach((tile) => {
         //when tile is clicked grab attribute from html
 		if (counter === 0) {
 			firstSelector = tile.getAttribute('resort')
+            
 			counter++
 		} else {
 			secondSelector = tile.getAttribute('resort')
