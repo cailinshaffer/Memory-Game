@@ -4,21 +4,38 @@
   box-sizing: border-box;
   background: #000
   url(https://wallpaperaccess.com/full/83502.jpg);
-  align
+
 
 }
+h1 {
+  text-align: center;
+  background-color: white;
+}
 
-.inline {
+.instructions {
+  text-align: center;
+  background-color: white;
+}
+.playagain {
+  text-align: center;
+ }
+.players {
+  text-align: center;
+  padding: 30px;
+}
+
+
+h2 {
   display: inline-block;
 }
 
-h1 {
-  align-items: center;
+.inline {
+  
+  font-size: 20px;
+ 
 }
 
-h2 {
-  align-items: center;
-}
+
 
 .container {
   display: flex;
