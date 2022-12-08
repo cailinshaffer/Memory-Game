@@ -36,3 +36,20 @@ https://cailinshaffer.github.io/Memory-Game/
 -Alternating betweeen player one and two.
 -Reseting gameboard, timer and score with out a page reload function.
 -Calculating score with time passed.
+
+## Sources
+-https://www.javatpoint.com/how-to-center-a-button-in-css
+
+-https://www.webtips.dev/memory-game-in-javascript
+
+-https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+
+-https://developer.mozilla.org/en-US/docs/Web/API/clearInterval
+
+-https://developer.mozilla.org/en-US/docs/Web/API/clearInterval
+
+-https://www.youtube.com/watch?v=B6aJpbX_IZU&t=1141s
+
+-https://www.youtube.com/watch?v=tjyDOHzKN0w&t=187s
+
+-https://developer.mozilla.org/en-US/docs/Web/API/setTimeout
