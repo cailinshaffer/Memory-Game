@@ -53,3 +53,5 @@ https://cailinshaffer.github.io/Memory-Game/
 -https://www.youtube.com/watch?v=tjyDOHzKN0w&t=187s
 
 -https://developer.mozilla.org/en-US/docs/Web/API/setTimeout
+
+-https://www.javatpoint.com/javascript-reset#:~:text=In%20JavaScript%2C%20the%20reset(),does%20not%20return%20any%20value.
