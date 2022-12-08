@@ -6,7 +6,7 @@ Trying to put your skills to the test? Let's test your memory!
 
 Each player will tap two tiles to try and get matching images. Don't get it right the first try? Remember where tials are and try again on the next turn!
 
-#Check out my Example!
+Check out my Example!
 https://cailinshaffer.github.io/Memory-Game/
 
 ![image](https://user-images.githubusercontent.com/117546971/204991481-1ccb1bd8-a2f5-4361-bf15-53cb515e6e18.png)
