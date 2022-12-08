@@ -27,3 +27,12 @@ https://cailinshaffer.github.io/Memory-Game/
  - Make a computer player.
  
  
+## Post-Project Reflection
+# Growth:
+- Cleaner code in HTML and JS.
+- Review CSS, figure out which CSS targets parents and children elements in HTML.
+
+# Problems I Encountered
+-Alternating betweeen player one and two.
+-Reseting gameboard, timer and score with out a page reload function.
+-Calculating score with time passed.
