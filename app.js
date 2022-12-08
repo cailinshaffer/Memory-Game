@@ -50,7 +50,7 @@ function reset() {
 	score2.innerText = 0
 	timer2.innerText = 0
     resetTiles()
-    tile.text = "Memory Game"
+    title.text = "Memory Game"
 }
 //console.log(reset)
 //create functions for each players score and timers
